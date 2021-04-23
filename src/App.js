@@ -1,8 +1,12 @@
 import React from 'react';
+import Image from './Image'
 
 function App() {
     return (
-        <div>Context Api</div>
+        <div className="app">
+            Context Api
+            <Image />
+        </div>
     );
 }
 export default App;
